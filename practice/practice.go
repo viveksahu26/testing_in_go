@@ -76,5 +76,5 @@ func main() {
 	// return an array
 	myarray, err := rff.ReadFromFile(fileName)
 	eeee.PrintError(err)
-	fmt.Println("myarray: ", myarray)
+	fmt.Println("\n myarray: ", myarray)
 }
